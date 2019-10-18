@@ -40,7 +40,7 @@ public final class MyViewUtils {
             if (isShowMessage) {
                 Context appContext = UtilsProvider.getAppContext();
                 if (null!=appContext){
-                    Toast.makeText(appContext, R.string.picker_str_click_too_fast, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(appContext, R.string.utils_str_click_too_fast, Toast.LENGTH_SHORT).show();
                 }
             }
             return true;
