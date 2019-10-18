@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hy.utils" >
+
+
+    <application>
+        <provider
+            android:authorities="${applicationId}.UTILS"
+            android:name=".UtilsProvider"
+            android:exported="false"
+            android:initOrder="100"
+            android:multiprocess="true"/>
+    </application>
+
+</manifest>
